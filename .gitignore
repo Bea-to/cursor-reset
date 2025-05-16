@@ -4,7 +4,8 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
+
+# Build
 build/
 develop-eggs/
 dist/
@@ -20,21 +21,29 @@ var/
 .installed.cfg
 *.egg
 
-# 虚拟环境
+# Virtual Environments
+.venv/**
 venv/
-ENV/
 env/
+ENV/
 
-# IDE
+# IDE/editor settings
 .idea/
 .vscode/
 *.swp
 *.swo
+.spyderproject
+.spyproject
+.ipynb_checkpoints/
 
-# 游戏相关
+# System
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Game temp files
 high_scores.json
 sounds/*.wav
-
-# 操作系统
-.DS_Store
-Thumbs.db 
